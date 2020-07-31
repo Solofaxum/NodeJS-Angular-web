@@ -72,7 +72,7 @@ app.use('/api', orderRouth);
 
 
 /**Connect mongoose and server listening */
-mongoose.connect(process.env.DB_CONNECT,
+mongoose.connect("mongodb+srv://solex-01:12sol1234@cluster0.xt3nu.gcp.mongodb.net/online-farmers-market?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
