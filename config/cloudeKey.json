@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "farmers-market-association",
+    "private_key_id": "2f452a042bea49c32b73f45cf11d79c27ea06309",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC+YySzMEcaVZV6\np/k5If+ItB8JzITcUy/yd8WttZUtO2zD9zicoCxMng51M3eHrisT0n6cLPKLqVBt\nv9+82VxLNj4M2CqEVjObVl1mG0p1KBI1OElwkwYl8VNI67vC9iEXdsA/t/AHi5OF\nSWPaCabgDgc0jM0kOrLIcmc2l5qUGdZoqaZ9ynIcP2JmNDHpZ/iFIyxzeZX8yqsO\nplxuVmKwx0Ox2S9yJ1jK7z9B1SsfC/zu6uTfwjm/Pp1wTj6XVkKhebdjXt3GQ7QD\n7Z3ys816wFkOstOPltuAX8H1E4ONIs9EMiiwPXbqkUpo7/NKlxh0vUr6Bmzb3vtL\n3AwcnjWNAgMBAAECggEALTRbpKswGr3a59xlxa2/n20LGJfFrQ2YaxUKq+/bK3n6\nXX4/5Bp44jk+HBBcD2xogISgeMMIVOZe+SwPeubOLfKDYafa0oCoMLgdJY8Rywb4\nacgDUfYqxcwKtxv3wTcRDOHujEKHfLckkAdorL7Rb04NYmoTFEjWpdbaEGGHO6YM\nx76om/FVn6QoZFuXXzfSTSfso/9nrxpmrXJ2GusFgB+/FPS08KamvN6GOlIvqn95\nrZqXHYW9IYsADt04Di4lQfp9QfN5lxEp1bEhstQdT1RgtMLWJfpoRzl9ZlOw+DUH\ne4sc+miuhb7k3CDY+y7yGFsoLFo2oiPlzmKga1/t0QKBgQDsbcFUr2oOfzQOVN6I\nguEFtjwokDDe1IDIv98Z0R2A4PhAhdw8BvQcRD/tWc0SFtMQ4cUPC3rV8pcYEj5E\n/8PWrhpsSSShBxBKF/uw9cfbT/IXFGyXD3gCMxKH5pvm3z5IxOp1GP2txKIs42sa\nUKwP460dzwte+t3m2yrOWOkavQKBgQDOJbUcscfGOI6bnqq5ra1mVx0+QFeQbyYJ\nDcm2+oireDUwsLHWpJ53S5DN/cpUjRiL4+H0zknrvjUp9MFEej9pa1AjND3wMD10\nek9XCkJAzphgw72VCsx7yeK2cCfXYWNvNF66t9djiSfCvr8njpngg6akinjW8wOf\nXItXAm+bEQKBgQCAD6sKXcFKfOgLYzjuJEYSO/U123Q9Hklrc1I6v6QFbNXKzTbP\nZMzQir89psiHJcnJeSCt13//Ztkkdq033nmLTN6PDMdEWXkfSQJRha9tQU5V5gAz\ninNsbZF5/xUu5njsHY0JRDIT71AQlFYs+MlaCe55GO6F0chkBQ6YmlwY2QKBgQCo\ndgAPNuj+f3FqkrsJiXhOTZpEKOhly67Vb0MMGKhfF5i/9WUe9t/YtRPcgi058yPA\nDbW1DG80Cvf/FVhq0UvIpj2SxzpmccWGzfzQMD38H9g+Gzdt+Kkp780pMXYdeCR9\n19oh0+JcINUxPBeSB+KPqoYfqFkfru+i50mnDQKPQQKBgH8oTCeFOwteHFg5r7zU\nOiqoxYgJxXPxjQJhAdAvE4E10zeWaMtap79GNDw0E1an/iXDcuqedAnH91MStYD2\nXx/TzJpVxMQr2u4z9Ff9iAxsXLYzKLOctAVAa22W2enIH9AWxzcJJefDfxXoSEpl\n9V/KXr5RkWERQnDUERpfXjxW\n-----END PRIVATE KEY-----\n",
+    "client_email": "solos-730@farmers-market-association.iam.gserviceaccount.com",
+    "client_id": "118000821365648061869",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/solos-730%40farmers-market-association.iam.gserviceaccount.com"
+  }
+  

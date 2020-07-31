@@ -1,0 +1,144 @@
+POST http://localhost:7000/api/customers/login
+Content-Type: application/json
+
+{
+  "email":"solofaxum@gmail.com",
+"password":"123456"
+}
+
+
+###
+GET http://localhost:7000/api/farmers/Poultry-Farming/products
+
+###
+GET http://localhost:7000/api/farmers/prods
+Content-Type: application/json
+Authorization: Bearer 
+
+
+
+###
+POST http://localhost:7000/api/customers/login
+Content-Type: application/json
+ 
+
+{
+  "email": "solofaxum6@yahoo.com",
+  "password": "123456"
+}
+
+###
+POST http://localhost:7000/api
+
+###
+POST http://localhost:7000/api
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNvbG9mYXh1bTZAeWFob28uY29tIiwiaWF0IjoxNTk1NDI5Njk5fQ.s-jEvd8VYSHa2i3RJNwtyD-jIbpPtzavarCtEL1FUVI
+
+{ 
+  "farmerId": "5f17d785350ac14580f49a70",
+  "customerId": "5f1845d80f2700715c111b54",
+  "customerEmail": "kesete@yahoo.com",
+  "groundTotalPrice":3.25,
+  "orderedProducts" : [
+   {"title":"Apple","productId": "5f184eb04546213fe8a23f66"},
+   {"title":"Grape","productId": "5f184de74546213fe8a23f65"}
+  ]
+
+    
+
+}
+
+###
+POST http://localhost:7000/sendmail
+Content-Type: application/json
+
+
+
+
+###
+GET http://localhost:7000/api/farmers/orders
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNvbG9mYXh1bTZAeWFob28uY29tIiwiaWF0IjoxNTk1NDI5Njk5fQ.s-jEvd8VYSHa2i3RJNwtyD-jIbpPtzavarCtEL1FUVI
+
+
+{
+  "farmname":"Sheep-Farm",
+  "fullname" : "Ksatebrhan Legesse",
+  "email": "kesete@gmail.com",
+  "password": "123456",
+   "products": [{
+     "farmname":"Sheep-Farm",
+     "title": "Milk",
+     "Price": 200,
+     "description": "Fresh lean sheep meat, to pick up "
+   }]
+}
+
+###
+POST http://localhost:7000/api/farmers/login
+Content-Type: application/json
+
+{
+  "email":"legesseelsabet@gmail.com",
+"password":"123456"
+}
+
+
+
+###
+POST http://localhost:7000/api/customers/carts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBvbG9AZ21haWwuY29tIiwiaWF0IjoxNTk1NzA2MjUwfQ.xXYJThkxRj9422UvDyNFPMw83fTpTNUYUI-RAehpqUM
+
+  {
+     
+    "farmerId": "5f17d340a43b3052cc7df112",
+    "productId": "5f1c3ea867622c5a045f9204",
+    "title": "tomato",
+     "quantity":2,
+    "groundTotal": 5
+   
+}
+
+
+
+###
+//product controls
+POST http://localhost:7000/api/farmers/prods
+Content-Type: application/json
+
+{
+  "email":"solcamble@gmail.com",
+"products":
+{
+  "farmname":"shoat farming",
+  "title": "Onion",
+  "price": 290,
+  "description": "Organic product, testy and available in any amount"
+}
+
+}
+
+###
+POST http://localhost:7000/api/customers/signup
+Content-Type: application/json
+
+{"firstname": "solomon",
+"lastname": "Legesse",
+  "email":"solofaxum@gmail.com",
+"password":"123456"
+}
+
+###
+DELETE http://localhost:7000/api/product/5f0538eb97fd8146c8309e43
+
+###
+PATCH  http://localhost:7000/api/product/5f0526c8e580281d046d4b6e
+Content-Type: application/json
+
+{
+  "title": "Cabbage",
+  "price": 88888888,
+  "description": "Organic cabage and price is per pound"
+}
