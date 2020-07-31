@@ -17,7 +17,7 @@ const orderRouth = require('./route/orders')
 
 const app = express();
 
-const API_PORT = process.env.API_PORT || 7000;
+// const API_PORT = process.env.API_PORT || 7000;
 
 app.use(cors({ origin: '*' }));
 app.use(express.json());
@@ -83,8 +83,8 @@ mongoose.connect(process.env.DB_CONNECT,
 ).then((data) => {
 
   app.use (express.static('farmers-market')); // node server will treat the folder as static
-  app.listen(API_PORT, () => {
-    console.log(`server is running at port ${API_PORT}.....🐊 ....🚀`)
+  app.listen(5000, () => {
+    console.log('server is running at port 5000')
   })
 })
 
